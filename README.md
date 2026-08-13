@@ -7,3 +7,9 @@ Foundation - ollama.com, various models available
 o	Ollama, 
 o	Ollama serve 
 o	Ollama run gema3:270m     (We will run small version of Gemini with 2.7 million tokens) 
+
+-- Install uv using winget under windows option -- https://docs.astral.sh/uv/getting-started/installation/#homebrew 
+Commands - 
+uv --version 
+uv self update 
+uv sync 
