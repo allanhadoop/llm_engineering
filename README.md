@@ -1,7 +1,9 @@
 # llm_engineering
 
 #Good Reference - Ed-Donner - https://github.com/ed-donner/llm_engineering
+https://arxiv.org/abs/1706.03762
 
+Model comparisons - https://www.vellum.ai/llm-leaderboard
 1. GPT
 2. CLAUDE - Haiku, Sonnet and Opus
 3. GEMINI
@@ -16,8 +18,20 @@ Frontier open source models-
 6. DEEPSEEK
 7. GPT-OSS from OpenAI
 
+- Prompt Engineering
+- Copilots
+- Context Engg
+- Agentic AI
+----------------------------------Transformers------------------------------
+Parameters - more parameters = more dials = more training, scaling capacity for the model to learn complex patterns (but also needs more computing power).GPT has billions of these dials (e.g., "175 billion parameters").
+Inference time scaling and Training time scaling 
+https://platform.openai.com/tokenizer --- Text gets broken into small chunks before the model can read it — could be a word, part of a word, or punctuation.
+Example: "unbelievable" might become tokens like un, believe, able. Think of tokens as words/pieces of a sentence, chopped up
 
-
+Vector = a list of numbers representing meaning
+Once you have tokens, the model converts each one into a list of numbers (e.g., [0.2, -1.5, 0.8, ...]) — this is the vector.
+These numbers capture the meaning of the token in a way the model's math can process.
+----------------------------------------------------------------------------
 Foundation - ollama.com, various models available 
 •	Download oollama.com and install on windows then run command like
 o	Ollama, 
